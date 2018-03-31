@@ -1,0 +1,431 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+body {
+  background-image: url("../images/wavegrid.png");
+  font-family: 'Ariel, sans-serif';
+  height: 100%;
+}
+
+.wholeHeader {
+  width: 100%;
+  background-color: white;
+}
+
+.navBar {
+  border: 1px none #ccc;
+  height: 68px;
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.myName {
+  display: inline-block;
+  height: 68px;
+  width: auto;
+  color: white;
+  background: #4aaaa5;
+  float: left;
+  padding: 15px;
+  margin-top: 0px;
+}
+
+nav ul {
+  float: right; 
+  margin: 0;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+nav li {
+  text-align: right;
+  display: inline;
+  padding-top: -50px;
+}   
+
+a {
+  color: #777777;
+}
+
+li {
+  margin-left: 10px;
+  color: #777777;
+  font-family: 'Georgia' serif;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+section p {
+  display: block;
+  padding: 20px;
+  color: #777777;
+  margin-bottom: -30px;
+  line-height: 2;
+}
+
+.header {
+  color: #4aaaa5;
+  font-family: 'Georgia' serif;
+  padding: 20px;
+  margin: auto;
+}
+
+hr {
+  width: 920px;
+  border-width: thin;
+  border-color: #ccc;
+  border-style: solid;
+  margin: 0 auto;
+}
+
+.potatoMe {  
+  float: left;
+  display: inline;
+  padding: 20px;
+}
+
+
+.body {
+  clear: both;
+  border: none;
+  background: #ffffff;
+  height: 400px;
+  width: 960px;
+  margin: 0px auto 50px auto;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  border: none;
+  height: 50px;
+  width: 100%;
+  background: #666666; 
+  margin: 0 auto;
+  border-top: 5px solid #4aaaa5;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#copyright {
+  color: white;
+  font-size: small;
+  margin: auto;
+  line-height: 5;
+}
+
+.bodyPortfolio {
+  clear: both;
+  border: none;
+  background: #ffffff;
+  height: 1400px;
+  width: 960px;
+  margin: 0px auto 50px auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  height: 200px;
+}
+
+.row {
+  display: block;
+  height: 200px;
+  
+}
+
+.images {
+  margin: 15px;
+  float: left;
+  width: 450px;
+}
+
+.column:hover {
+  border: 1px solid #777;
+}
+
+.images img {
+  width: 100%;  
+  height: 100%;
+}
+
+.textBlock {
+  position: relative;
+  bottom: 60px;
+  left: 0px;
+  background-color: #4aaaa5;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.navBar2 {
+  border: 1px none #ccc;
+  height: 68px;
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+  background: white;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+
+.contactNav ul {
+  float: right; 
+  margin: 0;
+  padding: 20px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.bodyContact {
+  clear: both;
+  border: none;
+  background: #ffffff;
+  height: 550px;
+  width: 960px;
+  margin: 0px auto 50px auto;
+  font-family: 'Ariel, sans-serif';
+  float: center;
+}
+
+.forms {
+  height: 85%;
+}
+
+.topform {
+  padding: 20px;
+}
+
+.topform input {
+  border: 0.5px solid #666666;
+  width: 920px;
+  height: 30px;
+  font-size: 14pt;
+}
+
+.text {
+  border: 1px solid #666666;
+}
+
+.message {
+  border: 1px solid #666666;
+} 
+
+.messageSection input {
+  height: 200px;
+  width: 920px;
+}
+
+.submit {
+  padding: 0px 20px;
+}
+
+.submit input {
+  background-color: #4aaaa5;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 980px) {
+
+  .myName {
+    margin-left: 224px;
+  }
+
+  nav ul {
+    margin-right: 214px;  
+  } 
+
+  .potatoMe {  
+    display: block;
+    padding: 20px;
+    height: 400px;
+    width: 500px;
+  }
+  
+  hr {
+    width: 450px;
+  }
+
+  .body {
+    width: 500px;
+    height: 765px;
+  }
+
+  .bodyPortfolio {
+    clear: both;
+    border: none;
+    background: #ffffff;
+    height: 1400px;
+    width: 500px;
+    margin: 0px auto 50px auto;
+  }
+
+  .row {
+    width: 470px;
+  }
+
+  .bodyContact {
+    clear: both;
+    border: none;
+    background: #ffffff;
+    height: 540px;
+    width: 500px;
+    margin: 0px auto 50px auto;
+  }
+
+  .contactNav ul {
+    margin-right: 214px;  
+  } 
+
+  .topform input { 
+    width: 460px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .myName {
+    margin-left: 120px;
+  }
+
+  nav ul {
+    margin-right: 320px;  
+  } 
+
+  .potatoMe {  
+    display: block;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    padding-bottom: 0px;
+  }
+  
+  hr {
+    width: 450px;
+  }
+
+  .body {
+    width: 500px;
+    height: 500px;
+  }
+
+  .bodyPortfolio {
+    height: 1100px;
+    width: 500px;
+  }
+
+  .row {
+    width: 470px;
+  }
+
+  .bodyContact {
+    height: 540px;
+    width: 500px;
+  }
+
+  .contactNav ul {
+    margin-right: 320px;  
+  } 
+
+  .topform input {
+    width: 460px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  
+  .myName {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 235px;
+    padding-right: 235px;
+    width: 640px;
+  }
+
+  .navBar {
+   width: 640px;
+   background-color: white;
+  }
+  .navBar ul { 
+    float: center; 
+    margin-top: 0px;
+    margin-right: 130px;
+  } 
+
+  li {
+    width: 640px;
+    padding-left: 55px;
+    font-size: 23px;
+  }
+
+  .wholeHeader {
+    position: static;
+    height: 120px;
+  }
+  .potatoMe {  
+    display: block;
+    padding: 20px;
+    height: 450px;
+    width: 450px;
+    margin-left: 25px;
+    
+  }
+  
+  hr {
+    width: 450px;
+  }
+
+  .body {
+    width: 500px;
+    height: 850px;
+  }
+
+  .bodyPortfolio {
+    width: 500px;
+    height: 1100px;
+  }
+
+  .row {
+    width: 470px;
+  }
+
+  .bodyContact {
+    width: 500px;
+    height: 540px;
+  }
+
+  .contactNav ul {
+    float: center;  
+  } 
+
+  .navBar2 ul { 
+    float: center; 
+    margin-top: 0px;
+    margin-right: 450px;
+  } 
+
+  .topform input {
+    width: 460px;
+  }
+}
+
+
